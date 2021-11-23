@@ -5,8 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.T0062\source\R5T.T0062.X001\R5T.T0062.X001.csproj" />
     <ProjectReference Include="..\..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj" />
-    <ProjectReference Include="..\..\..\R5T.T0091\source\R5T.T0091\R5T.T0091.csproj" />
+    <ProjectReference Include="..\R5T.D0099.T001\R5T.D0099.T001.csproj" />
   </ItemGroup>
 
 </Project>

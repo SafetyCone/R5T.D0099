@@ -1,10 +1,10 @@
 using System;
 
 
-namespace R5T.D0099
+namespace R5T.D0099.D002
 {
     /// <summary>
-    /// <see cref="IMachineOutput"/> and related services.
+    /// IMachineOutputSinkProvider service.
     /// </summary>
     public static class Documentation
     {

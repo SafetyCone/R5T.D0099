@@ -1,10 +1,10 @@
 using System;
 
 
-namespace R5T.D0099
+namespace R5T.D0099.D003
 {
     /// <summary>
-    /// <see cref="IMachineOutput"/> and related services.
+    /// IMachineOutputFilePathProvider service.
     /// </summary>
     public static class Documentation
     {

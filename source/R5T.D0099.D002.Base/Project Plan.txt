@@ -1,0 +1,3 @@
+R5T.D0099.D002.Base - Service definitions for IMachineOutputSinkProvider service.
+
+GOALS:

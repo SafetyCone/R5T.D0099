@@ -1,0 +1,3 @@
+R5T.D0099.D001.Base - Service definitions for IMachineOutputSynchronicityProvider service.
+
+GOALS:

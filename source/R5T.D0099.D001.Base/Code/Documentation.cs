@@ -1,10 +1,10 @@
 using System;
 
 
-namespace R5T.D0099
+namespace R5T.D0099.D001
 {
     /// <summary>
-    /// <see cref="IMachineOutput"/> and related services.
+    /// IMachineOutputSynchronicityProvider service.
     /// </summary>
     public static class Documentation
     {
