@@ -11,7 +11,7 @@ using R5T.D0099.T001;
 namespace R5T.D0099.D002.I001
 {
     [ServiceImplementationMarker]
-    public class InMemoryMachineMessageOutputSinkProvider : IMachineMessageOutputSinkProvider
+    public class InMemoryMachineMessageOutputSinkProvider : IMachineMessageOutputSinkProvider, IServiceImplementation
     {
         #region Static
 

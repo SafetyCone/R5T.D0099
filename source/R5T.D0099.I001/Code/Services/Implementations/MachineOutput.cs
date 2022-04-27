@@ -47,6 +47,8 @@ namespace R5T.D0099.I001
 
 
         private IEnumerable<IMachineMessageOutputSinkProvider> MachineMessageOutputSinkProviders { get; }
+
+        // Requires first-time use setup.
         private IEnumerable<IMachineMessageOutputSink> MachineMessageOutputSinks { get; set; }
 
 

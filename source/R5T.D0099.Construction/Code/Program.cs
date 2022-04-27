@@ -25,11 +25,13 @@ namespace R5T.D0099.Construction
         }
 
         #endregion
-        
-        
+
+
+#pragma warning disable IDE0052 // Remove unread private members
         private IServiceProvider ServiceProvider { get; }
-        
-        
+#pragma warning restore IDE0052 // Remove unread private members
+
+
         public Program(IApplicationLifetime applicationLifetime,
             IServiceProvider serviceProvider)
             : base(applicationLifetime)
@@ -39,17 +41,19 @@ namespace R5T.D0099.Construction
         
         protected override Task ServiceMain(CancellationToken stoppingToken)
         {
-            return this.RunOperation();
+            //return this.RunOperation();
+
+            return Task.CompletedTask;
         }
         
-        private async Task RunOperation()
-        {
+        //private async Task RunOperation()
+        //{
         
-        }
+        //}
         
-        private async Task RunMethod()
-        {
+        //private async Task RunMethod()
+        //{
         
-        }
+        //}
     }
 }

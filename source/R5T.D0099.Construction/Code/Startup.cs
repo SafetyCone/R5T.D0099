@@ -19,11 +19,12 @@ namespace R5T.D0099.Construction
         
         }
         
-        public override async Task ConfigureConfiguration(
+        public override Task ConfigureConfiguration(
             IConfigurationBuilder configurationBuilder,
             IServiceProvider startupServicesProvider)
         {
-            
+            // Do nothing.
+            return Task.CompletedTask;
         }
         
         protected override async Task ConfigureServicesWithProvidedServices(

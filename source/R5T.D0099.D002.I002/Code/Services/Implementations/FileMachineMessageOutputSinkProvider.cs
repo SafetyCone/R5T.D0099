@@ -4,8 +4,6 @@ using System.Threading.Tasks;
 
 using Microsoft.Extensions.Logging;
 
-using R5T.Magyar.IO;
-
 using R5T.D0096;
 using R5T.D0098;
 using R5T.T0064;

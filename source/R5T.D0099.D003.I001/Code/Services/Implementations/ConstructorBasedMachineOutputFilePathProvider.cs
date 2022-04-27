@@ -13,7 +13,7 @@ namespace R5T.D0099.D003.I001
 
 
         public ConstructorBasedMachineOutputFilePathProvider(
-            string machineOutputFilePath)
+            [NotServiceComponent] string machineOutputFilePath)
         {
             this.MachineOutputFilePath = machineOutputFilePath;
         }
