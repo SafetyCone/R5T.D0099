@@ -10,7 +10,7 @@ namespace R5T.D0099.D003.I002
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="MachineOutputFilePathProvider"/> implementation of <see cref="IMachineOutputFilePathProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="MachineOutputFilePathProvider"/> implementation of <see cref="IMachineOutputFilePathProvider"/> as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<IMachineOutputFilePathProvider> AddMachineOutputFilePathProviderAction(this IServiceAction _,
             IServiceAction<IMachineOutputFileNameProvider> machineOutputFileNameProviderAction,

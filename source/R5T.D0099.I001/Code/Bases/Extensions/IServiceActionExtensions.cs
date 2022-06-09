@@ -12,7 +12,7 @@ namespace R5T.D0099.I001
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="MachineOutput"/> implementation of <see cref="IMachineOutput"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="MachineOutput"/> implementation of <see cref="IMachineOutput"/> as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<IMachineOutput> AddMachineOutputAction(this IServiceAction _,
             IEnumerable<IServiceAction<IMachineMessageOutputSinkProvider>> machineMessageOutputSinkProviderAction)

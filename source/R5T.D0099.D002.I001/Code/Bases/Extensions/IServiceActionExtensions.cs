@@ -9,7 +9,7 @@ namespace R5T.D0099.D002.I001
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="InMemoryMachineMessageOutputSinkProvider"/> implementation of <see cref="IMachineMessageOutputSinkProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="InMemoryMachineMessageOutputSinkProvider"/> implementation of <see cref="IMachineMessageOutputSinkProvider"/> as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<IMachineMessageOutputSinkProvider> AddInMemoryMachineMessageOutputSinkProviderAction(this IServiceAction _)
         {
